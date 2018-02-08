@@ -1,0 +1,93 @@
+.top{
+	padding: 0.05rem 0.18rem 0 0.16rem;
+}
+.icon-return{
+	width: 0.32rem;
+	height: 0.32rem;
+	font-size: 0;
+	float: left;
+}
+.search-box{
+	width: 1.92rem;
+	height: 0.28rem;
+	margin:0.025rem 0 0 0.245rem;
+	padding-left: 0.38rem;
+	font-size: 0;
+	background: #fbfafa url(../../img/homePages/icon-search-hot.png) no-repeat 0.08rem 0.04rem;
+	background-size: 0.22rem 0.22rem;
+	float: left;
+}
+.search-box input{
+	width: 1.92rem;
+	height: 0.28rem;
+	background: #fbfafa;
+	border: none;
+	outline: none;
+}
+
+.search-box input::-webkit-input-placeholder{
+	font-family: MicrosoftYaHei;
+	font-size: 0.125rem;
+	color: #b6b6b6;
+}
+.cart{
+	width: 0.3rem;
+	height: 0.25rem;
+	margin-top: 0.045rem;
+	float: right;
+	font-size: 0;
+}
+.brands-intro{
+	width: 3.75rem;
+	height: 2.28rem;
+	margin-top: 0.50rem;
+	background: url(../../img/homePages/monkey-details.png) no-repeat;
+	background-size: cover;
+}
+.nav{
+	height: 0.3rem;
+	padding: 0 0.12rem 0 0.155rem;
+}
+.nav ul li{
+	line-height: 0.3rem;
+	font-size: 0.11rem;
+	float: left;
+	padding-right: 0.18rem;
+}
+.nav li a{
+	color: #b6b6b6;
+}
+.nav .active-nav a{
+	color: #000000;
+}
+.nav .nav-price{
+	padding-right: 0.17rem;
+	background: url(../../img/homePages/icon-top-bottom.png) no-repeat right center;
+	background-size: 0.075rem auto;
+}
+.nav .nav-filter{
+	float: right;
+	padding: 0 0 0 0.255rem;
+	background: url(../../img/homePages/icon-filter.png) no-repeat left center;
+	background-size:0.165rem 0.13rem ;
+}
+/*goods-list*/
+.goods-list{
+	padding: 0.115rem 0.04rem;
+}
+.goods-list ul{
+	display: block;
+}
+.goods-list ul li{
+	float: left;
+	width: 1.745rem;
+	height: 2.4rem;
+	font-size: 0;
+	padding-top: 0.23rem;
+}
+.goods-list ul li:nth-child(1),.goods-list ul li:nth-child(2){
+	padding-top: 0;
+}
+.goods-list ul li:nth-child(2n+1){
+	padding-right: 0.17rem;
+}

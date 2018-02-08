@@ -1,0 +1,161 @@
+/*当页面滚动到图文详情时的状态栏加btns样式*/
+.boxshadow{
+	width: 3.75rem;
+	height: 0.61rem;
+	background-color: #ffffff;
+	box-shadow: 0rem 0.005rem 0.025rem 0.001rem #7b7b7b;
+}
+.wraper{
+	padding-bottom:0.49rem ;
+}
+.goods-buy-btns{
+	width: 100%;
+	height: 0.41rem;
+	font-size: 0;
+	position: fixed;
+	z-index: 200;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 0;
+}
+.goods-buy-btns .goods-buy-icon-return{
+	width: 0.36rem;
+	height: 0.36rem;
+	margin:0.035rem 0 0 0.205rem;
+}
+.goods-buy-btns .goods-buy-icon-cart{
+	width: 0.34rem;
+	height: 0.29rem;
+	margin:0.06rem 0 0 2.345rem;
+}
+.goods-buy-btns .goods-buy-icon-share{
+	width: 0.27rem;
+	height: 0.31rem;
+	margin:0.04rem 0 0 0.13rem;
+}
+/*goods-rounds-inf*/
+.goods-rounds-inf{
+	width: 3.75rem;
+	margin-top: -0.2rem;
+}
+/*goods-rounds-inf-swiper*/
+.goods-rounds-inf .swiper-container{
+	width: 3.75rem;
+	height: 3.93rem;
+}
+.goods-rounds-inf .swiper-pagination-bullet{
+	width: 0.07rem;
+	height: 0.07rem;
+	opacity: 1;
+	background-color: #B6B6B6;
+}
+.goods-rounds-inf .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin: 0 0.04rem;
+}
+.goods-rounds-inf .swiper-pagination-bullet-active{
+	width: 0.17rem;
+	height: 0.07rem;
+	background-color: #b6bb6b6;
+	border-radius: 0.03rem;
+}
+.goods-rounds-inf .swiper-container-horizontal>.swiper-pagination-bullets{
+	bottom: 0;
+	line-height: 0;
+    font-size: 0;
+    padding-bottom: 0.155rem;
+}
+.goods-basic-inf{
+	height: 1.465rem;
+	text-indent: 0.285rem;
+}
+.goods-basic-inf-price{
+	margin: 0.29rem 0 0.265rem 0;
+	width: 1.48rem;
+	height: 0.36rem;
+	background-color: #b6b6b6;
+	font-size: 0.25rem;
+	line-height: 0.36rem;
+	font-family: Impact;
+}
+.goods-basic-inf-name{
+	font-size: 0.175rem;
+	line-height: 0.265rem;
+}
+.goods-basic-inf-addr{
+	font-size: 0.125rem;
+	line-height: 0.575rem;
+	color: #b6b6b6;
+}
+.goods-store-inf,.goods-quality-inf{
+	width: 100%;
+	font-size: 0;
+}
+/*pull*/
+.pull{
+	font-size: 0.125rem;
+	color: #b6b6b6;
+	text-align: center;
+	line-height: 0.125rem;
+	padding: 0.065rem 0 0.045rem 0;
+}
+/*goods-details-inf*/
+.goods-details-inf{
+	
+}
+.goods-details-inf-image-text{
+	margin: 0 auto;
+	width: 3.5rem;;
+	text-align: center;
+	font-size: 0;
+}
+.goods-details-inf-image-text div{
+	padding-bottom: 0.2rem;
+}
+.goods-details-inf-image-text-tit{
+	font-size: 0.15rem;
+	line-height: 0.15rem;
+	color: #b6b6b6;
+	padding: 0.225rem 0 0.185rem 0;
+}
+/*goods-shopping*/
+.goods-shopping{
+	background: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 3.75rem;
+	height: 0.485rem;
+	border-top: solid 0.005rem #F0F0F0;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	font-size: 0;
+}
+.goods-shopping-icon-shop{
+	width: 0.17rem;
+	height: 0.21rem;
+	margin: 0 0.1rem 0 0.17rem;
+}
+.goods-shopping-icon-cus{
+	width: 0.2rem;
+	height: 0.22rem;
+	padding: 0 0.135rem 0 0.16rem;
+	background: url(../../img/shop/goods-buy-icon-customer-bg.png) no-repeat center center;
+	background-size: cover;
+}
+.goods-shopping-icon-love{
+	width: 0.21rem;
+	height: 0.18rem;
+	margin: 0 0.185rem 0 0.14rem;
+	background: url(../../img/shop/goods-buy-icon-love.png) no-repeat;
+	background-size: cover;
+}
+.goods-shopping-buynow button{
+	width: 2.28rem;
+	height: 0.485rem;
+	background-color: #c22425;
+	border: 0;
+	font-family: MicrosoftYaHei;
+	font-size: 0.2rem;
+	color: #FFFFFF;
+}

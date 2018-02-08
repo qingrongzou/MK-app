@@ -1,0 +1,79 @@
+.goods-buy-btns{
+	font-size: 0;
+}
+.goods-buy-btns div{
+	position: fixed;
+	z-index: 200;
+	font-size: 0;
+}
+.goods-buy-btns .goods-buy-icon-return{
+	width: 0.36rem;
+	height: 0.36rem;
+	left: 0.205rem;
+	top: 0.235rem;
+}
+.goods-buy-btns .goods-buy-icon-cart{
+	width: 0.34rem;
+	height: 0.29rem;
+	left: 2.87rem;
+	top: 0.275rem;
+}
+.goods-buy-btns .goods-buy-icon-share{
+	width: 0.27rem;
+	height: 0.31rem;
+	left: 3.34rem;
+	top: 0.255rem;
+}
+.goods-rounds-inf{
+	width: 100%;
+	height: 5.98rem;
+	position: relative;
+}
+.goods-buy-icon-next{
+	position: absolute;
+	width: 0.11rem;
+	height: 0.18rem;
+	right: 0.175rem;
+	bottom: 0.09rem;
+	font-size: 0;
+}
+.goods-shopping{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 3.75rem;
+	height: 0.485rem;
+	border-top: solid 0.005rem #F0F0F0;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	font-size: 0;
+}
+.goods-shopping-icon-shop{
+	width: 0.17rem;
+	height: 0.21rem;
+	margin: 0 0.1rem 0 0.17rem;
+}
+.goods-shopping-icon-cus{
+	width: 0.2rem;
+	height: 0.22rem;
+	padding: 0 0.135rem 0 0.16rem;
+	background: url(../../img/shop/goods-buy-icon-customer-bg.png) no-repeat center center;
+	background-size: cover;
+}
+.goods-shopping-icon-love{
+	width: 0.21rem;
+	height: 0.18rem;
+	margin: 0 0.185rem 0 0.14rem;
+	background: url(../../img/shop/goods-buy-icon-love.png) no-repeat;
+	background-size: cover;
+}
+.goods-shopping-buynow button{
+	width: 2.28rem;
+	height: 0.485rem;
+	background-color: #c22425;
+	border: 0;
+	font-family: MicrosoftYaHei;
+	font-size: 0.2rem;
+	color: #FFFFFF;
+}

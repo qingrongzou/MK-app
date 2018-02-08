@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <title>Monkey</title>
+    <link rel="stylesheet" href="../../css/common.css" />
+    <link rel="stylesheet" href="../../css/swiper-3.4.2.min.css" />
+    <link rel="stylesheet" href="../../css/startPages/startPage.css" />
+</head>
+<body>
+	<!--startpage-->
+	<div class="startpage">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<!--swiper-slide1-->
+				<section class="swiper-slide">
+					<div class="countdown">
+						<a href="../homePages/homePage.html">
+							<img src="../../img/startPages/startPage-5s.png" />
+						</a>
+					</div>
+					<div class="swiper-button-next"><img src="../../img/startPages/next-white.png"/></div>
+				</section>
+				<!--swiper-slide2-->
+				<section class="swiper-slide">
+					<div class="swiper-button-next"><img src="../../img/startPages/next-black.png"/></div>
+				</section>
+				<!--swiper-slide3-->
+				<section class="swiper-slide">
+					<div class="swiper-button-next"><img src="../../img/startPages/next-white.png"/></div>
+				</section>
+				<!--swiper-slide4-->
+				<section class="swiper-slide">
+					<div class="immediate">
+						<a href="../homePages/homePage.html">
+							<img src="../../img/startPages/btn-immediate.png" />
+						</a>		
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</body>
+   	<script type="text/javascript" src="../../js/auto-size.js" ></script>
+   	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js" ></script>
+   	<script type="text/javascript" src="../../js/swiper-3.4.2.jquery.min.js" ></script>
+   	<script>
+   		$(function(){
+   			$('.startpage').css('height',window.screen.height);
+   			var startpapeSwiper=new Swiper(".startpage .swiper-container",{
+   				direction:'horizontal',
+   				nextButton:'.swiper-button-next',
+   				allowSwipeToPrev : false,
+   			})
+   			setTimeout(function(){
+   				$(".countdown a").removeAttr("href");
+   			},5000)
+   		})
+   	</script>
+</html>

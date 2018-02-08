@@ -1,0 +1,114 @@
+.top{
+	padding: 0.075rem 0 0 0.105rem;
+	font-size: 0;
+	line-height: 0;
+}
+.top div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.search-box{
+	width: 2.37rem;
+	height: 0.28rem;
+	padding-left: 0.33rem;
+	border-radius: 0.025rem;
+	background:#f0f0f0 url(../../img/shop/icon-search.png) no-repeat 0.04rem 0.03rem;
+	background-size:0.22rem 0.22rem ;
+}
+.search-box input{
+	width: 2.37rem;
+	height: 0.28rem;
+	border: 0;
+	background-color: #f0f0f0;
+	border-radius: 0.025rem;
+	outline: none;
+}
+.search-box input::-webkit-input-placeholder{
+	font-size: 0.138rem;
+	color: #b6b6b6;
+}
+.icon-cart{
+	width: 0.25rem;
+	height: 0.21rem;
+	margin:0 0.155rem 0 0.21rem ;
+}
+
+.icon-share{
+	width: 0.21rem;
+	height: 0.215rem;
+	
+}
+/*page-nav*/
+.page-nav{
+	padding-top: 0.14rem;
+	margin: 0 0.63rem 0 0.615rem;
+	font-size: 0.175rem;
+	line-height: 0.275rem;
+}
+.page-nav ul {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.page-nav a{
+	width: 0.5rem;
+	color: #b6b6b6;
+	text-align: center;
+	position: relative;
+}
+.page-nav .page-nav-active{
+	color: #000000;
+}
+.page-nav .page-nav-active:before{
+	content: '';
+	width: 0.5rem;
+	height: 0.02rem;
+	background: url(../../img/shop/page-nav-active-border.png) no-repeat left bottom;
+	background-size:0.5rem 0.02rem ;
+	position: absolute;
+	left: 0;
+	bottom: -0.02rem;
+}
+/*page-con*/
+.page-con{
+	padding-bottom: 0.49rem;
+}
+.discount-nav{
+	height: 0.3rem;
+	padding:0.075rem 0.12rem 0 0.155rem;
+}
+.discount-nav ul li{
+	line-height: 0.3rem;
+	font-size: 0.11rem;
+	float: left;
+	padding-right: 0.18rem;
+}
+.discount-nav li a{
+	color: #b6b6b6;
+}
+.discount-nav .discount-nav-active a{
+	color: #000000;
+}
+.discount-nav .nav-price{
+	padding-right: 0.17rem;
+	background: url(../../img/homePages/icon-top-bottom.png) no-repeat right center;
+	background-size: 0.075rem auto;
+}
+.discount-nav .nav-filter{
+	float: right;
+	padding: 0 0 0 0.255rem;
+	background: url(../../img/homePages/icon-filter.png) no-repeat left center;
+	background-size:0.165rem 0.13rem;
+}
+.discount-goods{
+	padding: 0 0.11rem;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.discount-goods div{
+	width: 1.705rem;
+	font-size: 0;
+}
+

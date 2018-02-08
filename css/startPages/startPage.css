@@ -1,0 +1,51 @@
+.startpage .swiper-container{
+	width: 3.75rem;
+	height: 100%;
+}
+.startpage .swiper-container .swiper-slide{
+	width: 3.75rem;
+	height: 100%;
+	background: url(../../img/startPages/startPage-bg.png) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.startpage .swiper-container .swiper-slide:nth-child(2){
+	background: url(../../img/startPages/bootPage1-bg.png) no-repeat;
+	background-size: cover;
+}
+.startpage .swiper-container .swiper-slide:nth-child(3){
+	background: url(../../img/startPages/bootPage2-bg.png) no-repeat;
+	background-size: cover;
+}
+.startpage .swiper-container .swiper-slide:nth-child(4){
+	background: url(../../img/startPages/bootPage3-bg.png) no-repeat;
+	background-size: cover;
+}
+.swiper-button-next{
+	width: 0.39rem;
+	height: 0.31rem;
+	position: absolute;
+	right: 0.105rem;
+	background-image: none;
+	bottom: 0.075rem;
+	top: auto;
+	font-size: 0;
+}
+.countdown{
+	width: 0.4rem;
+	height: 0.4rem;
+	padding:0.13rem 0 0 3.215rem;
+	font-size: 0;
+	line-height: 0;
+	text-align: center;
+}
+.immediate {
+	width: 1.92rem;
+	height: 0.61rem;
+	font-size: 0;
+	position: absolute;
+	left: 0.96rem;
+	right: auto;
+	top: auto;
+	bottom: 0.53rem;
+}

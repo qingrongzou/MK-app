@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title>monkey</title>
+	    <link rel="stylesheet" href="../../css/common.css" />
+	    <link rel="stylesheet" type="text/css" href="../../css/shop/goods-inf.css"/>
+	    <link rel="stylesheet" href="../../css/swiper-3.4.2.min.css" />
+	</head>
+	<body>
+		<div class="wraper">
+			<section class="status"></section>
+			<!--goods-inf-btns-->
+			<section class="goods-buy-btns">
+				<div class="goods-buy-icon-return">
+					<a href="#"><img src="../../img/shop/goods-buy-icon-return.png" /></a>
+				</div>
+				<div class="goods-buy-icon-cart">
+					<a href="#"><img src="../../img/shop/goods-buy-icon-cart.png" /></a>
+				</div>
+				<div class="goods-buy-icon-share">
+					<a href="#"><img src="../../img/shop/goods-buy-icon-share.png" /></a>
+				</div>
+			</section>
+			<!--goods-rounds-inf-->
+			<section class="goods-rounds-inf" >
+				<div class="swiper-container">
+    				<div class="swiper-wrapper">
+						<div class="swiper-slide"><img src="../../img/shop/goods-inf-goods1-banner1.png"/></div>
+						<div class="swiper-slide"><img src="../../img/shop/goods-inf-goods1-banner1.png"/></div>
+						<div class="swiper-slide"><img src="../../img/shop/goods-inf-goods1-banner1.png"/></div>
+						<div class="swiper-slide"><img src="../../img/shop/goods-inf-goods1-banner1.png"/></div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="goods-basic-inf">
+					<p class="goods-basic-inf-price">&yen;5399.00</p>
+					<p class="goods-basic-inf-name">MONKEY原创中国风刺绣卫衣</p>
+					<p class="goods-basic-inf-addr">发货地：成都市&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;运费：至成都市 &yen;10.00</p>
+				</div>
+				<div class="goods-store-inf">
+					<img src="../../img/shop/goods-inf-goods1-store.png" />
+				</div>
+				<div class="goods-quality-inf">
+					<img src="../../img/shop/goods-inf-goods1-qua.png" />
+				</div>
+				<section class="pull">
+					上拉查看，“图文详情”
+				</section>
+			</section>
+			<section class="goods-details-inf">
+				<!--goods-details-inf-top-->
+				<section class="goods-details-inf-top">
+					<div class="status"></div>
+					<section class="goods-buy-btns">
+						<div class="goods-buy-icon-return">
+							<a href="#"><img src="../../img/shop/goods-buy-icon-return.png" /></a>
+						</div>
+						<div class="goods-buy-icon-cart">
+							<a href="#"><img src="../../img/shop/goods-buy-icon-cart.png" /></a>
+						</div>
+						<div class="goods-buy-icon-share">
+							<a href="#"><img src="../../img/shop/goods-buy-icon-share.png" /></a>
+						</div>
+					</section>
+				</section>
+				<!--goods-details-inf-image-text-->
+				<section class="goods-details-inf-image-text">
+					<div class="goods-details-inf-image-text-tit">图文详情</div>
+					<div><img src="../../img/shop/goods-inf-goods1-image-text01.png"/></div>
+					<div><img src="../../img/shop/goods-inf-goods1-image-text02.png"/></div>
+					<div><img src="../../img/shop/goods-inf-goods1-image-text03.png"/></div>
+					<div><img src="../../img/shop/goods-inf-goods1-image-text04.png"/></div>
+				</section>
+			</section>
+			<section class="goods-shopping">
+				<div class="goods-shopping-icon-shop"><a href="#"><img src="../../img/shop/goods-buy-icon-shop.png"/></a></div>
+				<div class="goods-shopping-icon-cus"><a href="#"><img src="../../img/shop/goods-buy-icon-customer.png"/></a></div>
+				<div class="goods-shopping-icon-love"></div>
+				<div class="goods-shopping-buynow"><button>立即购买</button></div>
+			</section>
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/auto-size.js" ></script>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js" ></script>
+	<script type="text/javascript" src="../../js/swiper-3.4.2.jquery.min.js" ></script>
+	<script>
+		var bannerSwiper=new Swiper(".goods-rounds-inf .swiper-container",{
+			direction: 'horizontal',
+    		loop: true,
+    		pagination: '.swiper-pagination',
+		})
+	</script>
+</html>

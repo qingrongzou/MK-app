@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>monkey</title>
+		<link rel="stylesheet" href="../../css/common.css" />
+		<link rel="stylesheet" href="../../css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" href="../../css/shop/goods-class.css" />
+	</head>
+
+	<body>
+		<div class="wraper">
+			<!--status-->
+			<header class="status"></header>
+			<!--top-search-->
+			<div class="top">
+				<div class="search-box">
+					<input type="text" name="search" placeholder="Search" />
+				</div>
+				<div class="icon-cart">
+					<a href="#"><img src="../../img/shop/icon-cart.png" /></a>
+				</div>
+				<div class="icon-share">
+					<a href="#"><img src="../../img/shop/icon-share.png" /></a>
+				</div>
+			</div>
+			<!--page-nav-->
+			<nav class="page-nav">
+				<ul>
+					<li class="page-nav-active">分类</li>
+					<li>品牌</li>
+					<li>折扣</li>
+				</ul>
+			</nav>
+			<!--page-con-->
+			<section class="page-con">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<section class="swiper-slide">
+							<!--class-nav-->
+							<nav class="class-nav">
+								<ul>
+									<li>
+										<a class="class-nav-active" href="#">Men</a>
+									</li>
+									<li>
+										<a href="#">Women</a>
+									</li>
+									<li>
+										<a href="#">Kids</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="nav-line"></div>
+							<!--class-men-->
+							<section class="class-men">
+								<!--class-men-nav-->
+								<nav class="class-men-nav">
+									<ul>
+										<li>
+											<a class="class-men-nav-active" href="#">上衣</a>
+										</li>
+										<li>
+											<a href="#">裤装</a>
+										</li>
+										<li>
+											<a href="#">鞋靴</a>
+										</li>
+										<li>
+											<a href="#">包装</a>
+										</li>
+										<li>
+											<a href="#">服饰</a>
+										</li>
+									</ul>
+								</nav>
+								<!--class-men-goods-->
+								<section class="class-men-goods"></section>
+							</section>
+						</section>
+						<section class="swiper-slide">
+							<div class="brands-goods"></div>
+						</section>
+						<section class="swiper-slide">
+							<!--discount-nav-->
+							<nav class="discount-nav">
+								<ul>
+									<li class="discount-nav-active">
+										<a href="#">人气</a>
+									</li>
+									<li>
+										<a href="#">销量</a>
+									</li>
+									<li>
+										<a href="#">新品</a>
+									</li>
+									<li class="nav-price">
+										<a href="#">价格</a>
+									</li>
+									<li class="nav-filter">
+										<a href="#">筛选</a>
+									</li>
+									<li class="float-clear"></li>
+								</ul>
+							</nav>
+							<section class="discount-goods"></section>
+						</section>
+					</div>
+				</div>
+			</section>
+			<!--footer-->
+			<footer class="footer">
+				<ul>
+					<li>
+						<a href="../homePages/homePage.html"><img src="../../img/homePages/footer-icon-home.png" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="../../img/homePages/footer-icon-snakers.png" /></a>
+					</li>
+					<li class="footer-active-nav">
+						<a href="../shop/goods-class.html"><img src="../../img/homePages/footer-icon-shop.png" /></a>
+					</li>
+					<li>
+						<a href="#"><img src="../../img/homePages/footer-icon-you.png" /></a>
+					</li>
+				</ul>
+				<div class="logo">
+					<a href="../community/community.html"><img src="../../img/homePages/logo.png" /></a>
+				</div>
+			</footer>
+		</div>
+	</body>
+	<script type="text/javascript" src="../../js/auto-size.js"></script>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../js/swiper-3.4.2.jquery.min.js"></script>
+	<script type="text/javascript" src="../../js/common.js"></script>
+	<script type="text/javascript" src="../../js/footerNav.js"></script>
+	<script>
+		$(function() {
+			addDom('.class-men-goods', ['class', 'men', ['hotGoods', 'jackets']]);
+			addDom('.brands-goods', ['brands', ['hot1', 'hot2', 'hot3']]);
+			addDom('.discount-goods', ['discount']);
+			var $shopNav = $(".page-nav ul li");
+			var shopNavSwiper = new Swiper(".page-con .swiper-container", {
+				direction: "horizontal",
+				onSlideChangeStart: function() {
+					$shopNav.removeClass("page-nav-active");
+					$shopNav.eq(shopNavSwiper.activeIndex).addClass("page-nav-active");
+					if (shopNavSwiper.activeIndex==1) {
+						$shopNav.parent().parent().parent().css("background","#fbfafa");
+					} else{
+						$shopNav.parent().parent().parent().css("background","#FFFFFF");
+					}
+				}
+			})
+			$.each($shopNav, function(index, value) {
+				$(value).on("click", function() {
+					$shopNav.removeClass("page-nav-active");
+					$(value).addClass("page-nav-active");
+					shopNavSwiper.slideTo(index);
+					if (index==1) {
+						$shopNav.parent().parent().parent().css("background","#fbfafa");
+					} else{
+						$shopNav.parent().parent().parent().css("background","#FFFFFF");
+					}
+				})
+			})
+		})
+	</script>
+
+</html>

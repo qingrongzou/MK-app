@@ -1,0 +1,118 @@
+.user-icon-return{
+	position: fixed;
+	width: 0.32rem;
+	height: 0.32rem;
+	font-size: 0;
+	top: 0.275rem;
+	left: 0.095rem;
+}
+.user-header{
+	margin-top: -0.2rem;
+	height: 2.23rem;
+	background: url(../../img/community/user-center-header1-bg.png) no-repeat;
+	background-size: cover;
+	font-size: 0;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0.56rem;
+}
+.user-header p{
+	font-size: 0.125rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.2rem;
+}
+.user-header-fans-count div{
+	font-size: 0.2rem;
+	color: #ffffff;
+}
+.user-header-image div{
+	width: 0.88rem;
+	height: 0.88rem;
+}
+.user-header-att div{
+	width: 0.365rem;
+	height: 0.22rem;
+}
+/*.user-article*/
+.user-article{
+	background-color: #f0f0f0;
+	padding:0.155rem 0 0.315rem 0;
+}
+/*user-article-con*/
+.user-article-con{
+	width: 3.55rem;
+	height: 2.51rem;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+.user-article-con{
+	margin-top: 0.2rem;
+}
+.user-article article:first-child{
+	margin-top: 0;
+}
+/*user-article-author*/
+.user-article-author{
+	height: 0.96rem;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	font-size: 0;
+}
+.user-article-author div:first-child{
+	width: 0.55rem;
+	height: 0.55rem;
+	margin: 0 0.13rem 0 0.185rem;
+}
+.user-article-author div p{
+	font-size: 0.12rem;
+	color: #b6b6b6;
+}
+.user-article-author div p:last-child{
+	font-size: 0.1rem;
+}
+/*user-article-main*/
+.user-article-main{
+	font-size: 0;
+	width: 1rem;
+	height: 1rem;
+	padding:0.02rem 0 0.135rem 0.46rem;
+}
+/*user-article-btns*/
+.user-article-btns{
+	height: 0.395rem;
+	font-size: 0;
+	display: -webkit-flex;
+	display: flex;
+}
+.user-article-category button{
+	margin:0 0.94rem 0 0.46rem;
+	width: 0.91rem;
+	height: 0.26rem;
+	background-color: #b6b6b6;
+	font-size: 0.15rem;
+	color: #ffffff;
+	border: 0;
+}
+.goods-shopping-icon-share,.goods-shopping-icon-like{
+	width: 0.21rem;
+	height: 0.21rem;
+	margin-top: 0.05rem;
+}
+
+.goods-shopping-icon-comment{
+	width: 0.245rem;
+	height: 0.2rem;
+	margin:0.06rem 0.24rem 0 0.185rem;
+	
+}
+
+.goods-shopping-icon-like{
+	width: 0.21rem;
+	height: 0.21rem;
+	background: url(../../img/community/user-center-icon-like.png);
+	background-size: cover;
+}
